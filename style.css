@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    font-size: 18px;    
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.intro{
+    display: flex;
+}
+
+.intro_content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*
+body{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+}
+
+.logo_text{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    
+}
+
+.header ul{
+    font-size: 18px;    
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.eyecandy_text{
+    font-weight: 900;   
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.eyecandy p, .eyecandy button{
+    color: #e5e7eb;
+}
+
+.eyecandy p{
+    font-size: 14px;
+}
+
+.eyecandy button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+}
+
+.eyecandy_image{
+    border: none;
+    background-color: #a5acb6;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.information_text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information .card{
+    font-size: 14px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quotee{
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.actionbox{
+    background-color: #3882f6;
+    font-weight: bold;
+    font-size: 24px;
+    color: #e5e7eb;
+}
+
+.actionbox p{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.actionbox button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 14px;
+}
+*/
