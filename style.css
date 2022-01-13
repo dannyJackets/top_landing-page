@@ -3,18 +3,24 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+    margin: 0;
 }
 
 .top{
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: #1f2937;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    color: #f9faf8;
+    font-size: 24px;
+    align-items: center;
+    font-weight: bold;
 }
 
 .header ul{
@@ -27,129 +33,153 @@ body{
 .header ul a{
     text-decoration: none;
     color: #e5e7eb;
+    align-items: center;
+    font-weight: normal;
 }
 
 .intro{
     display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .intro_content{
     display: flex;
     flex-direction: column;
-}
-
-
-/*
-body{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-
-}
-
-.header{
-    background-color: #1f2937;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 150px;
-    padding-right: 150px;
-    align-items: center;
+    max-width: 525px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    gap: 6px;
 }
 
-.logo_text{
-    font-size: 24px;
+.intro_content p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: normal;
+    margin: 0;
+}
+
+.intro_content button{
+    background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
-    
-}
-
-.header ul{
-    font-size: 18px;    
-    list-style-type: none;
-    display: flex;
-    gap: 25px;
-}
-
-.header ul a{
-    text-decoration: none;
-    color: #e5e7eb;
-}
-
-.eyecandy_text{
-    font-weight: 900;   
-    font-size: 48px;
-    color: #f9faf8;
-}
-
-.eyecandy p, .eyecandy button{
-    color: #e5e7eb;
-}
-
-.eyecandy p{
-    font-size: 14px;
-}
-
-.eyecandy button{
-    background-color: #3882f6;
     border: none;
     border-radius: 8px;
+    margin: 0;
+    padding: 6px;
+    width: 110px;
 }
 
-.eyecandy_image{
-    border: none;
-    background-color: #a5acb6;
-    width: 500px;
-    height: 200px;
+.intro_image{
+    width: 600px;
+    background-color: #788eac;
+    color: #f9faf8;
+    line-height: 200px;
     text-align: center;
-    
 }
 
-.information_text{
+.body{
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
-.information .card{
-    font-size: 14px;
+.info_cards{
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.card_one, .card_two, .card_three, .card_four{
+    display: block;
+}
+
+.info_cards img{
+    border-style: solid;
+    border-color: #2a70dd;
+    border-radius: 8px;
+    width: 175px;
+    height: 175px;
 }
 
 .quote{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 275px;
+    padding-right: 275px;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
     color: #1f2937;
 }
 
 .quotee{
-    font-weight: bold;
+    text-align: right;
     font-size: 24px;
     font-style: normal;
+    font-weight: bold;
 }
 
 .actionbox{
+    display: flex;
     background-color: #3882f6;
-    font-weight: bold;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 125px;
+    margin-right: 125px;
+    border-radius: 8px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.actionbox_prompt{
+    display: flex;
+    flex-direction: column;
     font-size: 24px;
-    color: #e5e7eb;
+    font-weight: bold;
+    gap: 2px;
 }
 
 .actionbox p{
+    font-size: 18px;
     font-weight: normal;
-    font-size: 14px;
+    margin: 0;
 }
 
-.actionbox button{
+.actionbox_button button{
     background-color: #3882f6;
-    border-radius: 8px;
-    border: 2px solid #f9faf8;
+    border-color: #f9faf8;
     color: #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 8px;
+    width: 150px;
+    font-weight: bold;
 }
 
 .footer{
     background-color: #1f2937;
-    color: #f9faf8;
-    font-size: 14px;
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-*/
