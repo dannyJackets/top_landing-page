@@ -103,15 +103,17 @@ body{
 }
 
 .card_one, .card_two, .card_three, .card_four{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .info_cards img{
     border-style: solid;
+    height: 175px;
+    width: 175px;
     border-color: #2a70dd;
     border-radius: 8px;
-    width: 175px;
-    height: 175px;
+    line-height: 150px;
 }
 
 .quote{
