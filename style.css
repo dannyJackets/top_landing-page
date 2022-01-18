@@ -95,16 +95,19 @@ body{
 
 .info_cards{
     display: flex;
-    gap: 25px;
+    gap: 50px;
     margin: 0;
     padding-top: 35px;
     font-size: 18px;
     font-weight: normal;
+    justify-content: center;
 }
 
 .card_one, .card_two, .card_three, .card_four{
+    
     display: flex;
     flex-direction: column;
+    
 }
 
 .info_cards img{
@@ -114,6 +117,10 @@ body{
     border-color: #2a70dd;
     border-radius: 8px;
     line-height: 150px;
+}
+
+.info_cards p{
+    width: 175px;
 }
 
 .quote{
